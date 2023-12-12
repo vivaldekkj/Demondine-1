@@ -5,3 +5,10 @@
 global.vida = 4;
 global.estamina = 6;
 global.cansaco = 0;
+
+global.troca = 0;
+
+global.lanterna_x = noone;
+global.lanterna_y = noone;
+
+global.luz= false;

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_inimigo",
   "spriteId": {
-    "name": "spr_parede",
-    "path": "sprites/spr_parede/spr_parede.yy",
+    "name": "spr_inimigo",
+    "path": "sprites/spr_inimigo/spr_inimigo.yy",
   },
   "solid": false,
   "visible": true,

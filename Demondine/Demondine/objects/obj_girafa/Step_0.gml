@@ -87,13 +87,49 @@ if alarm[0] > 0 {
 }
 #endregion
 
+#region arma
+if global.troca == 0 {
+
 
 with(obj_arma) {
 	arma_dir = point_direction(x, y, mouse_x, mouse_y);	
+
+
 	if (mouse_check_button_pressed(mb_left)){
-			atirar()
+		if alarm[1] <= 0 {
+			atirar()	
+			alarm[1] = 60
+		}
 			obj_arma.image_index = 1;
 	} else {
 		obj_arma.image_index = 0;
 	}
+
+}
+
+}
+#endregion
+
+
+#region lanterna
+if global.troca == 1 {
+	with(obj_lanterna) {
+		lanterna_dir = point_direction(x, y, mouse_x, mouse_y);	
+	}
+}
+	
+#endregion
+
+#region lanterna_topo
+
+if global.troca == 1 {
+	with(obj_topo_lanterna) {
+		lanterna_top_dir = point_direction(x, y, mouse_x, mouse_y);	
+	}
+}
+	
+#endregion
+
+if mouse_check_button_pressed(mb_left) {
+	global.luz = !global.luz;
 }

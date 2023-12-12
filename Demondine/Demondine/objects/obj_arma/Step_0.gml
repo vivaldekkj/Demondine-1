@@ -1,5 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+if global.troca == 0 {
+#region
 
 if instance_exists(arma_id) {
 	
@@ -15,9 +17,12 @@ if instance_exists(arma_id) {
 		var proje = instance_create_layer(arma_x, arma_y, "Projetil", obj_projetil);
 		proje.image_angle = arma_dir;
 		proje.direction = arma_dir;
-		proje.speed = 8;
+		proje.speed = 10;
 	}
-	
+
 } else {
 	instance_destroy()	
+}
+
+#endregion
 }

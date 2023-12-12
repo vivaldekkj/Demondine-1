@@ -20,14 +20,20 @@ dir = 0;
 
 
 
-
+alarm[1] = 0;
 alarm[0] = 0;
 
 alpha = 1;
 color = c_white;
 
 
+minha_lanterna_top = instance_create_layer(x, y, "Lanterna", obj_topo_lanterna)
+minha_lanterna_top.lanterna_top_id = self
 
 
-minha_arma = instance_create_layer(x, y, "Arma", obj_arma)
+minha_lanterna = instance_create_layer(x, y, "Arma", obj_lanterna)
+minha_lanterna.lanterna_id = self
+
+
+minha_arma = instance_create_layer(x, y, "Lanterna", obj_arma)
 minha_arma.arma_id = self
