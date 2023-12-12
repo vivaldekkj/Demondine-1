@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_girafa_direita",
   "bboxMode": 0,
-  "collisionKind": 4,
+  "collisionKind": 0,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,

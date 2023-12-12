@@ -4,15 +4,21 @@
   "name": "Demondine",
   "resources": [
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"order":1,},
+    {"id":{"name":"obj_vida_estamina_cansaco","path":"objects/obj_vida_estamina_cansaco/obj_vida_estamina_cansaco.yy",},"order":4,},
     {"id":{"name":"spr_girafa_direita","path":"sprites/spr_girafa_direita/spr_girafa_direita.yy",},"order":0,},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},"order":1,},
-    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"spr_girafa_esquerda","path":"sprites/spr_girafa_esquerda/spr_girafa_esquerda.yy",},"order":3,},
     {"id":{"name":"spr_respirando_direita","path":"sprites/spr_respirando_direita/spr_respirando_direita.yy",},"order":5,},
     {"id":{"name":"obj_girafa","path":"objects/obj_girafa/obj_girafa.yy",},"order":0,},
+    {"id":{"name":"obj_iluminacao","path":"objects/obj_iluminacao/obj_iluminacao.yy",},"order":6,},
+    {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},"order":6,},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},"order":3,},
+    {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"order":5,},
+    {"id":{"name":"spr_estamina","path":"sprites/spr_estamina/spr_estamina.yy",},"order":7,},
+    {"id":{"name":"spr_cansaco","path":"sprites/spr_cansaco/spr_cansaco.yy",},"order":8,},
+    {"id":{"name":"scr_controle","path":"scripts/scr_controle/scr_controle.yy",},"order":0,},
     {"id":{"name":"spr_respirando_esquerda","path":"sprites/spr_respirando_esquerda/spr_respirando_esquerda.yy",},"order":4,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -32,7 +38,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":7,},

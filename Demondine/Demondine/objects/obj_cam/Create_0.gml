@@ -11,4 +11,4 @@ targetx = xstart;
 
 targety = ystart;
 
-spd = 25;
+spd = 15;
