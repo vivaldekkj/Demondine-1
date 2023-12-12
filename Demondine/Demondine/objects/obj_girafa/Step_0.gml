@@ -73,6 +73,8 @@ if (dir == 0 and !right and !down and !up) {
 #endregion
 
 
+
+#region tomando dano
 if alarm[0] > 0 {
 	if image_alpha >= 1 {
 		alpha = -0.1;	
@@ -82,4 +84,16 @@ if alarm[0] > 0 {
 	image_alpha += alpha;
 } else {
 	image_alpha = 1;	
+}
+#endregion
+
+
+with(obj_arma) {
+	arma_dir = point_direction(x, y, mouse_x, mouse_y);	
+	if (mouse_check_button_pressed(mb_left)){
+			atirar()
+			obj_arma.image_index = 1;
+	} else {
+		obj_arma.image_index = 0;
+	}
 }

@@ -6,6 +6,10 @@ velv = 0;
 velh = 0;
 vel = 2;
 
+
+
+
+
 right = 0
 left = 0;
 up = 0;
@@ -13,7 +17,17 @@ down = 0;
 
 dir = 0;
 
+
+
+
+
 alarm[0] = 0;
 
 alpha = 1;
 color = c_white;
+
+
+
+
+minha_arma = instance_create_layer(x, y, "Arma", obj_arma)
+minha_arma.arma_id = self

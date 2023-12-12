@@ -29,3 +29,5 @@ if surface_exists(sombra_surface) {
 }
 
 draw_surface(sombra_surface, 0, 0);
+
+
