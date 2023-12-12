@@ -8,8 +8,8 @@ if instance_exists(lanterna_top_id) {
 	x = lanterna_top_id.x + 15
 	y = lanterna_top_id.y + 6
 	
-	lanterna_top_x = x + lengthdir_x(300, lanterna_top_dir);
-	lanterna_top_y = y + lengthdir_y(300, lanterna_top_dir);;
+	lanterna_top_x = x + lengthdir_x(400, lanterna_top_dir);
+	lanterna_top_y = y + lengthdir_y(400, lanterna_top_dir);;
 	
 	image_angle = lanterna_top_dir;
 	
