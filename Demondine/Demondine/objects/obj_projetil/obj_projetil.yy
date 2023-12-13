@@ -6,7 +6,7 @@
     "name": "spr_projetil",
     "path": "sprites/spr_projetil/spr_projetil.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -27,6 +27,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_dino","path":"objects/obj_dino/obj_dino.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

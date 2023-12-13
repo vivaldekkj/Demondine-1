@@ -1,6 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-nome = "Neuromancer";
 
-alarm[0] = 90;
+
+if vida <= 0 {
+	instance_destroy(instance_id)	
+}
+
+
+
+

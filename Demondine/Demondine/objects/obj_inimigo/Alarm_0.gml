@@ -1,6 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-nome = "Neuromancer";
 
-alarm[0] = 90;
+instance_create_layer(x - 200, y - 40, "Instances", obj_pent);
+
+
+
+
+

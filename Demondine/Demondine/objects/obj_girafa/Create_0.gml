@@ -23,7 +23,6 @@ dir = 0;
 
 alarm[1] = 0;
 alarm[0] = 0;
-alarm[2] = 0;
 
 alpha = 1;
 color = c_white;

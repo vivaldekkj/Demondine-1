@@ -5,7 +5,8 @@ function scr_textos(){
 		case "Neuromancer" :
 		texto[0] = "Parece que você realmente é forte, boom pegue estes itens";
 		global.uso = 1;
-		texto[1] = "Bom, fale mais cmg";
+		texto[1] = "Até a próxima";
+		instance_destroy(obj_inimigo.id)
 		break;
 	}
 }
