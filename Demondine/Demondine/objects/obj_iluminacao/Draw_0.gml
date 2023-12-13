@@ -5,7 +5,7 @@ if surface_exists(sombra_surface) {
 	surface_set_target(sombra_surface)
 	
 	draw_set_color(c_black)
-	draw_set_alpha(1);
+	draw_set_alpha(.8);
 	
 	draw_rectangle(0, 0, room_width, room_height, 0)
 	
@@ -16,6 +16,7 @@ if surface_exists(sombra_surface) {
 	
 	
 if global.troca == 1 {
+	if global.dialogo == false {
 	if global.luz == true{
 			obj_lanterna.image_index = 1;
 			
@@ -30,7 +31,7 @@ if global.troca == 1 {
 	} else {
 			obj_lanterna.image_index = 0; }
 }
-	
+}	
 	
 	
 	draw_set_alpha(.2)

@@ -7,7 +7,7 @@
     "path": "sprites/spr_topo_lanterna/spr_topo_lanterna.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

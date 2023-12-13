@@ -87,6 +87,9 @@ if alarm[0] > 0 {
 }
 #endregion
 
+
+
+if global.uso == 1 {
 #region arma
 if global.troca == 0 {
 
@@ -94,19 +97,20 @@ if global.troca == 0 {
 with(obj_arma) {
 	arma_dir = point_direction(x, y, mouse_x, mouse_y);	
 
-
-	if (mouse_check_button_pressed(mb_left)){
-		if alarm[1] <= 0 {
-			atirar()	
-			alarm[1] = 60
+if global.dialogo == false {
+		if (mouse_check_button_pressed(mb_left)){
+			if alarm[1] <= 0 {
+				atirar()	
+				audio_play_sound(snd_tiro, 1, 0);
+				alarm[1] = 60
+			}
+				obj_arma.image_index = 1;
+		} else {
+			obj_arma.image_index = 0;
 		}
-			obj_arma.image_index = 1;
-	} else {
-		obj_arma.image_index = 0;
+
 	}
-
 }
-
 }
 #endregion
 
@@ -131,15 +135,30 @@ if global.troca == 1 {
 }
 
 	
-
-if global.troca == 1 {
-	if mouse_check_button_pressed(mb_left) {
-		global.luz = !global.luz;
+if global.dialogo == false {
+	if global.troca == 1 {
+		if mouse_check_button_pressed(mb_left) {
+			global.luz = !global.luz;
+		}
 	}
 }
 
 #endregion
 
+}
 
 
-window_set_fullscreen(1)
+
+#region dialogo
+
+if global.dialogo == false {
+	if distance_to_object(obj_par_npcs) <= 10 {
+		if keyboard_check(ord("F")) {
+			var _npc = instance_nearest(x, y, obj_par_npcs);
+			var _dialogo = instance_create_layer(x, y, "Dialogo", obj_dialogo);
+			_dialogo.npc_nome = _npc.nome
+		}
+	}
+}
+
+#endregion
