@@ -4,6 +4,7 @@
 
 global.vida = 4;
 global.estamina = 6;
+global.estamina_controle = false;
 global.cansaco = 0;
 
 global.troca = 0;

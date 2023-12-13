@@ -6,6 +6,17 @@ left = keyboard_check(ord("A"))
 up = keyboard_check(ord("W"))
 down = keyboard_check(ord("S"))
 
+if global.estamina_controle == false {
+	if global.estamina >= 0 {
+	if mouse_check_button(mb_right) {
+		alarm[2] = 30;
+		veld = 2.5;
+		vel = 4;
+	}
+	}
+} 
+
+if global.dialogo == false {
 #region colisao
 
 var hor = right - left;
@@ -87,6 +98,7 @@ if alarm[0] > 0 {
 }
 #endregion
 
+}
 
 
 if global.uso == 1 {
@@ -139,6 +151,7 @@ if global.dialogo == false {
 	if global.troca == 1 {
 		if mouse_check_button_pressed(mb_left) {
 			global.luz = !global.luz;
+			audio_play_sound(snd_click, 1, 0)
 		}
 	}
 }

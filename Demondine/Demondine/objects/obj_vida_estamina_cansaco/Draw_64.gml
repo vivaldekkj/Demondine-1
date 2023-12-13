@@ -32,13 +32,13 @@ else if global.estamina == 5 {
 else if global.estamina == 4 {
 	draw_sprite(spr_estamina, 2, x, y + 60)	
 }
-else if global.estamina = 3 {
+else if global.estamina == 3 {
 	draw_sprite(spr_estamina, 3, x, y + 60)	
 }
-else if global.estamina = 2 {
+else if global.estamina == 2 {
 	draw_sprite(spr_estamina, 4, x, y + 60)	
 }
-else if global.estamina = 1 {
+else if global.estamina == 1 {
 	draw_sprite(spr_estamina, 5, x, y + 60)	
 }
 else{

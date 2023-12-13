@@ -5,7 +5,7 @@ if surface_exists(sombra_surface) {
 	surface_set_target(sombra_surface)
 	
 	draw_set_color(c_black)
-	draw_set_alpha(.8);
+	draw_set_alpha(.85);
 	
 	draw_rectangle(0, 0, room_width, room_height, 0)
 	
@@ -19,7 +19,6 @@ if global.troca == 1 {
 	if global.dialogo == false {
 	if global.luz == true{
 			obj_lanterna.image_index = 1;
-			
 			draw_set_alpha(.4);
 			draw_line_width(obj_lanterna.lanterna_x, obj_lanterna.lanterna_y, obj_topo_lanterna.lanterna_top_x, obj_topo_lanterna.lanterna_top_y, 120)	
 			draw_set_alpha(1)
