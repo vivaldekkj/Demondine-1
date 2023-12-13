@@ -120,16 +120,26 @@ if global.troca == 1 {
 	
 #endregion
 
+
+
 #region lanterna_topo
 
 if global.troca == 1 {
 	with(obj_topo_lanterna) {
-		lanterna_top_dir = point_direction(x, y, mouse_x, mouse_y);	
+		lanterna_top_dir = point_direction(x, y, obj_lanterna.lanterna_x, obj_lanterna.lanterna_y);	
 	}
 }
+
 	
+
+if global.troca == 1 {
+	if mouse_check_button_pressed(mb_left) {
+		global.luz = !global.luz;
+	}
+}
+
 #endregion
 
-if mouse_check_button_pressed(mb_left) {
-	global.luz = !global.luz;
-}
+
+
+window_set_fullscreen(1)
