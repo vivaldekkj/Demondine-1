@@ -7,6 +7,10 @@ up = keyboard_check(ord("W"))
 down = keyboard_check(ord("S"))
 
 
+if vida <= 0 {
+	game_restart()	
+}
+
 if global.dialogo == false {
 #region colisao
 

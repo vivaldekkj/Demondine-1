@@ -11,6 +11,8 @@ velh = 0;
 velv = 0;
 vel = 0.5;
 
+dano = 1;
+
 vel_pers = 1;
 
 dest_x = 0;
@@ -23,7 +25,7 @@ empurrar_dir = 0;
 empurrar_vel = 0;
 
 
-global.hit = false;
+
 
 dist_agro = 200;
 dist_desagro = 450;

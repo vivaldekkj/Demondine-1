@@ -17,3 +17,5 @@ global.dialo = false;
 global.luz= false;
 
 global.uso = false;
+
+global.hit = false;

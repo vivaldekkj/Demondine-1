@@ -1,6 +1,5 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
-
 function scr_dino_colision() {
 	if place_meeting(x + velh, y, obj_parede) {
 		while !place_meeting(x + sign(velh), y, obj_parede) {
