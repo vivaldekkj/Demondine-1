@@ -4,7 +4,7 @@
 
 
 if vida <= 0 {
-	instance_destroy(instance_id)	
+	instance_destroy(id)	
 }
 
 
