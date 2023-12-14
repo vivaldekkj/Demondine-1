@@ -3,38 +3,13 @@
 
 randomize();
 
-var _dirx = irandom_range(0, 0);
+instance_create_layer(794, 212, "Instances", obj_dino);
 
-var _diry = irandom_range(0, 0);
+instance_create_layer(1117, 311, "Instances", obj_dino);
 
-instance_create_layer(x + _dirx, y + _diry, "Instances", obj_dino);
+instance_create_layer(1005, 470, "Instances", obj_dino);
 
-var _dirx = irandom_range(-30, 30);
+instance_create_layer(523, 478, "Instances", obj_dino);
 
-var _diry = irandom_range(-30, 30);
-
-instance_create_layer(x + _dirx, y + _diry, "Instances", obj_dino);
-
-var _dirx = irandom_range(-40, 40);
-
-var _diry = irandom_range(-40, 40);
-
-instance_create_layer(x + _dirx, y + _diry, "Instances", obj_dino);
-
-var _dirx = irandom_range(-20, 20);
-
-var _diry = irandom_range(-20, 20);
-
-instance_create_layer(x + _dirx, y + _diry, "Instances", obj_dino);
-
-var _dirx = irandom_range(-80, 80);
-
-var _diry = irandom_range(-80, 80);
-
-instance_create_layer(x + _dirx, y + _diry, "Instances", obj_dino);
-
-
-instance_destroy();
-
-
+instance_create_layer(480, 300, "Instances", obj_dino);
 

@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
-alarm[0] = 30;
+alarm[0] = 180;
 
 
 
