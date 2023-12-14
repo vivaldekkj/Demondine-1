@@ -9,6 +9,8 @@ velh = 0;
 vel = 2;
 
 
+dano = 1;
+
 
 right = 0
 left = 0;

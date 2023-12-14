@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "objs_blocos",
+    "path": "folders/Objects/objs_blocos.yy",
   },
 }

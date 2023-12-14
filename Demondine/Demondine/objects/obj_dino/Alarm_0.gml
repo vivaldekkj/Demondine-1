@@ -1,11 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-script_execute(estado);
+estado = scr_dino_escolher
+alarm[0] = irandom_range(120, 240)
 
 
-if vida <= 0 {
-	instance_destroy();
-}
 
 
