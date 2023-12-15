@@ -10,7 +10,7 @@ vel = 2;
 
 
 dano = 1;
-vida = 5;
+vida = 4;
 
 right = 0
 left = 0;

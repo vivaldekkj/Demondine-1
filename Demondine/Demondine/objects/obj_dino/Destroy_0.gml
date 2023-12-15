@@ -1,10 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-
-if alarm[0] <= 0 {
-	vida--;
-	alarm[0] = 180;
-}
+instance_create_layer(x, y, "Instances_1", obj_dino_morto);
 
 

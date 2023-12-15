@@ -3,8 +3,6 @@
 
 
 if alarm[0] <= 0 {
-	vida--;
-	alarm[0] = 180;
+	image_index = 9	
 }
-
 

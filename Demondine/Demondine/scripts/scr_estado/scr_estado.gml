@@ -87,6 +87,7 @@ function scr_slime_parado() {
 
 function scr_dino_pers () {
 		
+		
 		if sprite_index == spr_dino_di {
 			sprite_index = spr_dino_atk_di;
 		} else {

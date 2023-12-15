@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_vida_estamina_cansaco",
-  "spriteId": null,
+  "name": "obj_dino_morto",
+  "spriteId": {
+    "name": "spr_dino_morte_di",
+    "path": "sprites/spr_dino_morte_di/spr_dino_morte_di.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,14 +25,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_controlers",
-    "path": "folders/Objects/objs_controlers.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

@@ -13,21 +13,21 @@ vel = 0.5;
 
 dano = 1;
 
-vel_pers = 1;
+vel_pers = 1.5;
 
 dest_x = 0;
 dest_y = 0;
 
 alarm[0] = 1;
 
-vida = 1;
+vida = 2;
 empurrar_dir = 0;
 empurrar_vel = 0;
 
 
 
 
-dist_agro = 200;
-dist_desagro = 450;
+dist_agro = 300;
+dist_desagro = 750;
 
 

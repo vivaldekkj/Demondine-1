@@ -12,6 +12,11 @@ global.troca = 0;
 global.lanterna_x = noone;
 global.lanterna_y = noone;
 
+
+global.morte = false;
+
+
+
 global.dialo = false;
 
 global.luz= false;
