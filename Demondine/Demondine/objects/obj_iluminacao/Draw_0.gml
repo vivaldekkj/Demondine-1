@@ -5,7 +5,7 @@ if surface_exists(sombra_surface) {
 	surface_set_target(sombra_surface)
 	
 	draw_set_color(c_black)
-	draw_set_alpha(.95);
+	draw_set_alpha(1);
 	
 	draw_rectangle(0, 0, room_width, room_height, 0)
 	
@@ -34,10 +34,10 @@ if global.troca == 1 {
 	
 	
 	draw_set_alpha(.2)
-	draw_circle(obj_girafa.x, obj_girafa.y, 120 + irandom(1), 0)
+	draw_circle(obj_girafa.x, obj_girafa.y, 80 + irandom(1), 0)
 	
 	draw_set_alpha(.5);
-	draw_circle(obj_girafa.x, obj_girafa.y, 90 + irandom(-1), 0)
+	draw_circle(obj_girafa.x, obj_girafa.y, 60 + irandom(-1), 0)
 	draw_set_alpha(1);
 		
 	gpu_set_blendmode(bm_normal);

@@ -10,8 +10,8 @@ if instance_exists(arma_id) {
 	x = arma_id.x + 15
 	y = arma_id.y + 6
 	
-	arma_x = x + lengthdir_x(60, arma_dir);
-	arma_y = y + lengthdir_y(60, arma_dir);;
+	arma_x = x + lengthdir_x(20, arma_dir);
+	arma_y = y + lengthdir_y(20, arma_dir);;
 	
 	image_angle = arma_dir;
 	
