@@ -4,3 +4,6 @@
 if instance_exists(obj_dialogo) {
 	global.dialogo = true;	
 }
+
+
+global.vida = obj_girafa.vida;

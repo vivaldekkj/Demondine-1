@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_estamina",
+  "name": "obj_estamina_vida",
   "spriteId": null,
   "solid": false,
   "visible": true,
